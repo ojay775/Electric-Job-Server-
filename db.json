@@ -1,0 +1,95 @@
+{
+  "applicants": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "location": "Nairobi",
+      "age": 28,
+      "idNumber": "12345678",
+      "nextOfKin": "Mary Smith",
+      "status": "Applied"
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "location": "Mombasa",
+      "age": 32,
+      "idNumber": "23456789",
+      "nextOfKin": "Bob Johnson",
+      "status": "Interviewed"
+    },
+    {
+      "id": 3,
+      "name": "David Omondi",
+      "location": "Kisumu",
+      "age": 25,
+      "idNumber": "34567890",
+      "nextOfKin": "Sarah Omondi",
+      "status": "New Applicant"
+    },
+    {
+      "id": 4,
+      "name": "Grace Wambui",
+      "location": "Nakuru",
+      "age": 35,
+      "idNumber": "45678901",
+      "nextOfKin": "James Wambui",
+      "status": "Applied"
+    },
+    {
+      "id": 5,
+      "name": "Peter Kamau",
+      "location": "Eldoret",
+      "age": 40,
+      "idNumber": "56789012",
+      "nextOfKin": "Jane Kamau",
+      "status": "Interviewed"
+    },
+    {
+      "id": 6,
+      "name": "Susan Atieno",
+      "location": "Thika",
+      "age": 29,
+      "idNumber": "67890123",
+      "nextOfKin": "Mark Atieno",
+      "status": "New Applicant"
+    },
+    {
+      "id": 7,
+      "name": "Michael Odhiambo",
+      "location": "Kakamega",
+      "age": 45,
+      "idNumber": "78901234",
+      "nextOfKin": "Ruth Odhiambo",
+      "status": "Applied"
+    },
+    {
+      "id": 8,
+      "name": "Elizabeth Muthoni",
+      "location": "Nyeri",
+      "age": 31,
+      "idNumber": "89012345",
+      "nextOfKin": "Paul Muthoni",
+      "status": "Interviewed"
+    },
+    {
+      "id": 9,
+      "name": "Robert Kipchoge",
+      "location": "Kericho",
+      "age": 38,
+      "idNumber": "90123456",
+      "nextOfKin": "Ann Kipchoge",
+      "status": "New Applicant"
+    },
+    {
+      "id": 10,
+      "name": "Margaret Wanjiru",
+      "location": "Machakos",
+      "age": 27,
+      "idNumber": "01234567",
+      "nextOfKin": "Daniel Wanjiru",
+      "status": "Applied"
+    }
+  ]
+  
+}
