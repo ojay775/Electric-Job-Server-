@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   
     function loadApplicants() {
-        fetch("https://my-json-server.typicode.com/ojay775/Electric-job-server/applicasion")
+        fetch("https://my-json-server.typicode.com/ojay775/Electric-job-server-/applicants")
             .then((res) => res.json())
             .then((applicants) => {
                 applicantsList.innerHTML = ''; 
@@ -80,31 +80,16 @@ document.addEventListener("DOMContentLoaded", function() {
             status: document.getElementById("status").value
         };
 
-        // Add to DOM immediately (optimistic update)
+        
         addApplicantToDOM(formData);
         form.reset();
 
-        // In a real app, you would send to server here
+       
         console.log("Form Data:", formData);
         
-        // For demo purposes, we'll just log to console
-        // In a real app, you would use the fetch API to send to your server
-        // fetch("https://my-json-server.typicode.com/ojay775/Electric-job-server/applicasion", {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        //     body: JSON.stringify(formData),
-        // })
-        // .then((res) => res.json())
-        // .then((newApplicant) => {
-        //     // The response might have additional fields from the server
-        //     // If needed, you could update the DOM with the complete data
-        //     console.log("Saved applicant:", newApplicant);
-        // })
-        // .catch(error => console.error("Error saving applicant:", error));
+       
     });
 
-    // Load applicants when page loads
+    
     loadApplicants();
 });
