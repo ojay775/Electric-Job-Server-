@@ -1,19 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const slidePage = document.getElementById("slide-page");
-    const closeSlide = document.getElementById("close-slide");
-    const hasSeenSlide = localStorage.getItem('hasSeenSlide');
-    
-    
-    if (!hasSeenSlide) {
-        slidePage.style.display = 'flex';
-    } else {
-        slidePage.style.display = 'none';
-    }
-    
-    closeSlide.addEventListener('click', function() {
-        slidePage.style.display = 'none';
-        localStorage.setItem('hasSeenSlide', 'true');
-    });
+  
     
     const form = document.getElementById("job-form");
     const applicantsList = document.getElementById("Applicants-list").querySelector("ul"); 
